@@ -1,0 +1,11 @@
+{
+    "titleTextLocator": "#HTML12 > .title",
+    "dinamicWebTableLocator": "#taskTable",
+    "displayValues" : {
+    "cpuLoadOfChromeProcess": ".chrome-cpu",
+    "memorySizeOfFirefoxProcess": ".firefox-memory",
+    "netWorkSpeedOfChromeProcess": ".chrome-network",
+    "diskSpaceOfFirefoxProcess": ".firefox-disk"
+    }
+    
+}

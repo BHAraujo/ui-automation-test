@@ -1,0 +1,10 @@
+{
+  "singleFileInputLocator": "#singleFileInput",
+  "singleFileButtonLocator": "#singleFileForm > button",
+  "singleFileStatusTextLocator":  "#singleFileStatus", 
+  "singleUploadFileDescriptionText":  "Single file selected: file1.pdf, Size: 142786 bytes, Type: application/pdf",
+  "multipleFileInputLocator": "#multipleFilesInput",
+  "multipleFilesButtonLocator": "#multipleFilesForm > button", 
+  "multipleFileStatusTextLocator":  "#multipleFilesStatus",
+  "multipleUploadsFileDescriptionText":  "Multiple files selected: file2.pdf, Size: 142786 bytes, Type: application/pdf file3.pdf, Size: 142786 bytes, Type: application/pdf"
+}

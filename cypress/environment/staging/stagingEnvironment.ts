@@ -1,0 +1,1 @@
+export const baseUrlStaging = 'https://testautomationpractice.blogspot.com/' as const

@@ -1,0 +1,17 @@
+{
+  "nameInputLocator": "#name",
+  "emailInputLocator": "#email",
+  "phoneInputLocator": "#phone",
+  "addressTextAreaLocator": "#textarea", 
+  "genderMaleRadioButtonLocator": "#male",
+  "genderFemaleRadioButtonLocator": "#female",
+  "sundayDayCheckBoxLocator": "#sunday",
+  "mondayDayCheckBoxLocator": "#monday",
+  "tuesdayDayCheckBoxLocator": "#tuesday",
+  "wednesdayDayCheckBoxLocator": "#wednesday",
+  "thursdayDayCheckBoxLocator": "#thursday",
+  "fridayDayCheckBoxLocator": "#friday",
+  "saturdayDayCheckBoxLocator": "#saturday"
+}
+
+

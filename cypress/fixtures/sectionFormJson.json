@@ -1,0 +1,20 @@
+{
+    "sectionOne": {
+        "sectionOneTextLocator": "#section1 > h4",
+        "paraOneTextLocator": "#para1",
+        "inputOneTextLocator": "#input1",
+        "submitButtonOneLocator": "#btn1"
+    },
+    "sectionTwo": {
+        "sectionOneTextLocator": "#section2 > h4",
+        "paraOneTextLocator": "#para2",
+        "inputOneTextLocator": "#input2",
+        "submitButtonOneLocator": "#btn2"
+    },
+    "sectionTree": {
+        "sectionOneTextLocator": "#section3 > h4",
+        "paraOneTextLocator": "#para3",
+        "inputOneTextLocator": "#input3",
+        "submitButtonOneLocator": "#btn3"
+    }
+}

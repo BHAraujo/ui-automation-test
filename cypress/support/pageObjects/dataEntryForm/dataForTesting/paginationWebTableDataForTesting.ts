@@ -1,0 +1,127 @@
+import type { PaginationWebTableDataForTestingInterface } from '../interfaces/paginationWebTableInterface.js'
+
+
+export const paginationWebTableDataForTesting: PaginationWebTableDataForTestingInterface = {
+  paginationOne : [{
+              id: "1",
+              name: "Smartphone",
+              price: "$10.99",
+              select: false
+            },
+           {
+              id: "2",
+              name: "Laptop",
+              price: "$19.99",
+              select: false
+            },
+          {
+              id: "3",
+              name: "Tablet",
+              price: "$5.99",
+              select: false
+            },
+          {
+              id: "4",
+              name: "Smartwatch",
+              price: "$7.99",
+              select: false
+            },
+          {
+              id: "5",
+              name: "Wireless Earbuds",
+              price: "$8.99",
+              select: false
+            }],
+  paginationTwo : [{
+              id: "6",
+              name: "Bluetooth Speaker",
+              price: "$9.99",
+              select: false
+            },
+           {
+              id: "7",
+              name: "Television",
+              price: "$20.99",
+              select: false
+            },
+          {
+              id: "8",
+              name: "Action Camera",
+              price: "$15.99",
+              select: false
+            },
+          {
+              id: "9",
+              name: "Gaming Console",
+              price: "$5.99",
+              select: false
+            },
+          {
+              id: "10",
+              name: "Digital Camera",
+              price: "$16.99",
+              select: false
+            }],
+  paginationTree : [{
+              id: "11",
+              name: "Smart Home Hub",
+              price: "$20.99",
+              select: false
+            },
+           {
+              id: "12",
+              name: "Router",
+              price: "$24.99",
+              select: false
+            },
+          {
+              id: "13",
+              name: "Portable Charger",
+              price: "$30.99",
+              select: false
+            },
+          {
+              id: "14",
+              name: "Fitness Tracker",
+              price: "$19.99",
+              select: false
+            },
+          {
+              id: "15",
+              name: "Desktop Computer",
+              price: "$2.99",
+              select: false
+            }],
+  paginationFour : [{
+              id: "16",
+              name: "E-Reader",
+              price: "$10.99",
+              select: false
+            },
+           {
+              id: "17",
+              name: "VR Headset",
+              price: "$11.99",
+              select: false
+            },
+          {
+              id: "18",
+              name: "Streaming Device",
+              price: "$13.99",
+              select: false
+            },
+          {
+              id: "19",
+              name: "Soundbar",
+              price: "$16.99",
+              select: false
+            },
+          {
+              id: "20",
+              name: "Wireless Mouse 20",
+              price: "$17.99",
+              select: false
+            }],  
+            
+} as const
+

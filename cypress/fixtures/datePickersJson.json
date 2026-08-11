@@ -1,0 +1,10 @@
+{
+    "datePickerOneLocator": "#datepicker",
+    "datePickerOneCurrentDayLocator": ".ui-state-default[data-date=\"?\"]",
+    "datePickerTwoLocator": "[name=\"SelectedDate\"]",
+    "datePickerThreeStartDateInputLocator": "#start-date",
+    "datePickerThreeEndDateInputLocator": "#end-date",
+    "datePickerThreeSubmitButton": ".submit-btn",
+    "resultLocator": "#result",
+    "resultTextLocator":"You selected a range of 0 days."
+}

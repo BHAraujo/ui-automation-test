@@ -1,0 +1,4 @@
+{
+    "staticWebTableLocator": "[name=\"BookTable\"]",
+    "titleTextLocator": "#HTML1 > .title"
+}
