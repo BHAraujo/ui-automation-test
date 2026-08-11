@@ -26,25 +26,25 @@ describe('Automation Testing Practice', () => {
 
       console.log('Starting display values assertions...')
 
-      cy.get(locator.displayValues.cpuLoadOfChromeProcess).invoke('text').then(elementText => {
+      cy.get(locator.displayValuesLocator.cpuLoadOfChromeProcessLocator).invoke('text').then(elementText => {
         cy.prompt([
           `Then verify "${locator.dinamicWebTableLocator}" element contains "${elementText}"`,
         ])
       })
 
-      cy.get(locator.displayValues.memorySizeOfFirefoxProcess).invoke('text').then(elementText => {
+      cy.get(locator.displayValuesLocator.memorySizeOfFirefoxProcessLocator).invoke('text').then(elementText => {
         cy.prompt([
           `Then verify "${locator.dinamicWebTableLocator}" element contains "${elementText}"`,
         ])
       })
 
-      cy.get(locator.displayValues.netWorkSpeedOfChromeProcess).invoke('text').then(elementText => {
+      cy.get(locator.displayValuesLocator.netWorkSpeedOfChromeProcessLocator).invoke('text').then(elementText => {
         cy.prompt([
           `Then verify "${locator.dinamicWebTableLocator}" element contains "${elementText}"`,
         ])
       })
 
-      cy.get(locator.displayValues.diskSpaceOfFirefoxProcess).invoke('text').then(elementText => {
+      cy.get(locator.displayValuesLocator.diskSpaceOfFirefoxProcessLocator).invoke('text').then(elementText => {
         cy.prompt([
           `Then verify "${locator.dinamicWebTableLocator}" element contains "${elementText}"`,
         ])

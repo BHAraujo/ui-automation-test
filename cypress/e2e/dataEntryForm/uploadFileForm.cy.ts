@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-import type { UploadFilesLocatorsInterface } from '../../support/pageObjects/dataEntryForm/interfaces/dataEntryFormInterface.js'
+import type { UploadFilesLocatorsInterface } from '../../support/pageObjects/dataEntryForm/interfaces/uploadFilesInterface.js'
 import { uploadFilesDataForTesting } from '../../support/pageObjects/dataEntryForm/dataForTesting/uploadFilesDataForTesting.js'
 import { UploadFilesEnum } from '../../support/pageObjects/dataEntryForm/enums/uploadFilesEnum.js'
 

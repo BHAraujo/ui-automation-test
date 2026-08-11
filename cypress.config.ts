@@ -4,7 +4,7 @@ import { baseUrlStaging } from "./cypress/environment/staging/stagingEnvironment
 
 export default defineConfig({
   allowCypressEnv: false,
-  projectId: "6bf41a",
+  projectId: "",
   pageLoadTimeout: 15000,
   
   e2e: {
